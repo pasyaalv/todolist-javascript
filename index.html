@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>To Do List By Pasya Alvan</title>
+</head>
+
+<body>
+    <div class="w-full items-center justify-center bg-teal-lightest mt-4 text-center">
+        <div class="bg-slate-100 rounded shadow p-6 m-4 w-[97.5%]">
+            <span
+                class="mx-4 pt-4 text-lg after:content-['*'] after:ml-0.5 after:text-red-500 block font-medium text-slate-700">Adding
+                New Task</span>
+            <input id="form" type="inputForm" name="inputForm"
+                class="w-[97%] mx-4 mt-1 p-[10px] bg-white border shadow border-slate-300 placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-sky-500 block rounded-md sm:text-sm focus:ring-1"
+                placeholder="Add new Task . . .">
+            <button id="submit" href="index.html"
+                class="inline-block p-2 mx-4 mt-4 border-2 border-white bg-amber-400 hover:bg-amber-500 rounded-lg shadow-lg focus:outline-none focus:ring focus:ring-violet-300 text-white">Submit
+            </button>
+        </div>
+
+        <div class="p-2 m-4 w-[97.5%]">
+            <h2 class="text-5xl mx-4 pt-2 text-indigo-400 mb-4 font-semibold">todo</h2>
+            <div id="listForm" class="my-2"></div>
+        </div>
+
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>
